@@ -43,10 +43,6 @@ Alternatively, you can give players the `playerheight.self` permission to let th
 - `%playerheight_cm%`
 - `%playerheight_imperial%`
 
-## Installing
-
-Place the PlayerHeight .jar in `/plugins`.
-
 ## Uninstalling
 
 1. Remove the PlayerHeight .jar and plugin folder
