@@ -31,7 +31,7 @@ public class AttributeConfig {
     private static final Map<String, Double> VANILLA_DEFAULTS = Map.ofEntries(
         Map.entry("walk_speed",                0.2),
         Map.entry("max_health",               20.0),
-        Map.entry("attack_damage",             2.0),
+        Map.entry("attack_damage",             1.0),
         Map.entry("knockback_resistance",      0.0),
         Map.entry("block_break_speed",         1.0),
         Map.entry("jump_strength",             0.42),
