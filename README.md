@@ -12,9 +12,9 @@ Smaller players will accurately walk slower, have weaker jumps and deal less att
 
 ## Size Potions
 
-PlayerHeight comes with a custom potion module `/ph give`. Size potions can grow or shrink players easily while integrating nicely with survival worlds.
+PlayerHeight comes with a custom potion module. Size potions can grow or shrink players easily while integrating nicely with survival worlds.
 
-The plugin does not currently make these potions craftable or lootable. Admins will need to set up that side of things themselves.
+The plugin does not currently make these potions craftable or lootable.
 
 Alternatively, you can give players the `playerheight.self` permission to let them change it on the fly.
 
