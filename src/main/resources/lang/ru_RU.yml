@@ -1,0 +1,52 @@
+# PlayerHeight Language File -- ru_RU
+# Supports MiniMessage formatting: https://docs.advntr.dev/minimessage/format.html
+
+prefix: "<gradient:#FFA500:#FF5D00>PlayerHeight</gradient>"
+
+# Help | {version}
+help_header: "{prefix} <#FFA500>v{version}"
+help_scale_get: "<green>/ph scale <dark_green>[player]"
+help_scale_set: "<green>/ph scale <dark_green><player> <value> [silent]"
+help_setscale: "<green>/ph setscale <dark_green><value>"
+help_give: "<green>/ph give <dark_green><player> <delta> [amount]"
+help_reload: "<green>/ph reload"
+
+# Usage
+usage_scale: "{prefix}<gray>: <red>Использование: /ph scale <player> [value] [silent]"
+usage_setscale: "{prefix}<gray>: <red>Использование: /ph setscale <value>"
+usage_give: "{prefix}<gray>: <red>Использование: /ph give <player> <delta> [amount]"
+
+# Scale | {player} {height} {height_cm} {height_imperial} {scale}
+scale_query_other: "{prefix}<gray>: <aqua>{player} <green>рост <white>{height} <gray>({scale})"
+scale_query_self: "<green>Ваш рост <white>{height} <gray>({scale})"
+scale_set_self: "<green>Ваш рост установлен на <white>{height} <gray>({scale})"
+scale_set_other: "{prefix}<gray>: <green>Масштаб игрока <aqua>{player}<green> установлен на <white>{scale}<green>."
+
+# Give | {player} {amount} {delta}
+give_sender: "{prefix}<gray>: <green>Игроку <aqua>{player} <green>выдано x{amount} зелий размера <gray>({delta})"
+give_receiver: "{prefix}<gray>: <green>Вы получили x{amount} зелий размера <gray>({delta})"
+
+# Reload | {count}
+reload: "{prefix}<gray>: <green>Перезагружено. Применено к <white>{count} <green>игрокам."
+
+# Errors | {player} {value}
+no_permission: "{prefix}<gray>: <red>У вас нет прав для этой команды."
+player_not_found: "{prefix}<gray>: <red>Игрок '{player}' не в сети."
+invalid_value: "{prefix}<gray>: <red>Неверное значение: '{value}'. Например: 1.5, +0.5, -0.1"
+invalid_delta: "{prefix}<gray>: <red>Неверная дельта: '{value}'. Например: -0.01 или 0.50"
+invalid_amount: "{prefix}<gray>: <red>Неверное количество: '{value}'. Целое число должно быть не менее 1."
+delta_zero: "{prefix}<gray>: <red>Дельта не может быть нулём."
+
+# Actionbar | {height} {height_cm} {height_imperial} {scale}
+actionbar_grow:    "<gold>Теперь ваш рост {height} <gray>({scale})"
+actionbar_shrink:  "<aqua>Теперь ваш рост {height} <gray>({scale})"
+actionbar_neutral: "<gray>Ваш рост {height} ({scale})"
+
+# Potions | {direction} {tier} {delta}
+direction_grow: "Увеличения"
+direction_shrink: "Уменьшения"
+potion_name: "Зелье {direction}"
+potion_lore_1: "<blue>{direction}{tier}"
+potion_lore_2: ""
+potion_lore_3: "<dark_purple>При применении:"
+potion_lore_4: "<blue>{delta} Размер"

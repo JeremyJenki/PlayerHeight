@@ -1,0 +1,52 @@
+# PlayerHeight Language File -- pl_PL
+# Supports MiniMessage formatting: https://docs.advntr.dev/minimessage/format.html
+
+prefix: "<gradient:#FFA500:#FF5D00>PlayerHeight</gradient>"
+
+# Help | {version}
+help_header: "{prefix} <#FFA500>v{version}"
+help_scale_get: "<green>/ph scale <dark_green>[player]"
+help_scale_set: "<green>/ph scale <dark_green><player> <value> [silent]"
+help_setscale: "<green>/ph setscale <dark_green><value>"
+help_give: "<green>/ph give <dark_green><player> <delta> [amount]"
+help_reload: "<green>/ph reload"
+
+# Usage
+usage_scale: "{prefix}<gray>: <red>Użycie: /ph scale <player> [value] [silent]"
+usage_setscale: "{prefix}<gray>: <red>Użycie: /ph setscale <value>"
+usage_give: "{prefix}<gray>: <red>Użycie: /ph give <player> <delta> [amount]"
+
+# Scale | {player} {height} {height_cm} {height_imperial} {scale}
+scale_query_other: "{prefix}<gray>: <aqua>{player} <green>ma wzrost <white>{height} <gray>({scale})"
+scale_query_self: "<green>Masz wzrost <white>{height} <gray>({scale})"
+scale_set_self: "<green>Twój wzrost został ustawiony na <white>{height} <gray>({scale})"
+scale_set_other: "{prefix}<gray>: <green>Zmieniono skalę gracza <aqua>{player}<green> na <white>{scale}<green>."
+
+# Give | {player} {amount} {delta}
+give_sender: "{prefix}<gray>: <green>Przekazano graczowi <aqua>{player} <green>x{amount} mikstur rozmiaru <gray>({delta})"
+give_receiver: "{prefix}<gray>: <green>Otrzymałeś x{amount} mikstur rozmiaru <gray>({delta})"
+
+# Reload | {count}
+reload: "{prefix}<gray>: <green>Przeładowano. Zastosowano do <white>{count} <green>graczy."
+
+# Errors | {player} {value}
+no_permission: "{prefix}<gray>: <red>Nie masz uprawnień do tej komendy."
+player_not_found: "{prefix}<gray>: <red>Gracz '{player}' nie jest online."
+invalid_value: "{prefix}<gray>: <red>Nieprawidłowa wartość: '{value}'. Np. 1.5, +0.5, -0.1"
+invalid_delta: "{prefix}<gray>: <red>Nieprawidłowa delta: '{value}'. Np. -0.01 lub 0.50"
+invalid_amount: "{prefix}<gray>: <red>Nieprawidłowa ilość: '{value}'. Liczba całkowita nie może być mniejsza niż 1."
+delta_zero: "{prefix}<gray>: <red>Delta nie może być zerem."
+
+# Actionbar | {height} {height_cm} {height_imperial} {scale}
+actionbar_grow:    "<gold>Teraz masz wzrost {height} <gray>({scale})"
+actionbar_shrink:  "<aqua>Teraz masz wzrost {height} <gray>({scale})"
+actionbar_neutral: "<gray>Masz wzrost {height} ({scale})"
+
+# Potions | {direction} {tier} {delta}
+direction_grow: "Powiększenia"
+direction_shrink: "Zmniejszenia"
+potion_name: "Mikstura {direction}"
+potion_lore_1: "<blue>{direction}{tier}"
+potion_lore_2: ""
+potion_lore_3: "<dark_purple>Po użyciu:"
+potion_lore_4: "<blue>{delta} Rozmiar"

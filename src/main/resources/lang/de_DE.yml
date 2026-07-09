@@ -1,0 +1,52 @@
+# PlayerHeight Language File -- de_DE
+# Supports MiniMessage formatting: https://docs.advntr.dev/minimessage/format.html
+
+prefix: "<gradient:#FFA500:#FF5D00>PlayerHeight</gradient>"
+
+# Help | {version}
+help_header: "{prefix} <#FFA500>v{version}"
+help_scale_get: "<green>/ph scale <dark_green>[player]"
+help_scale_set: "<green>/ph scale <dark_green><player> <value> [silent]"
+help_setscale: "<green>/ph setscale <dark_green><value>"
+help_give: "<green>/ph give <dark_green><player> <delta> [amount]"
+help_reload: "<green>/ph reload"
+
+# Usage
+usage_scale: "{prefix}<gray>: <red>Verwendung: /ph scale <player> [value] [silent]"
+usage_setscale: "{prefix}<gray>: <red>Verwendung: /ph setscale <value>"
+usage_give: "{prefix}<gray>: <red>Verwendung: /ph give <player> <delta> [amount]"
+
+# Scale | {player} {height} {height_cm} {height_imperial} {scale}
+scale_query_other: "{prefix}<gray>: <aqua>{player} <green>ist <white>{height} <gray>({scale})"
+scale_query_self: "<green>Du bist <white>{height} <gray>({scale})"
+scale_set_self: "<green>Deine Größe wurde auf <white>{height} <gray>({scale}) <green>gesetzt."
+scale_set_other: "{prefix}<gray>: <green>Größe von <aqua>{player}<green> auf <white>{scale}<green> gesetzt."
+
+# Give | {player} {amount} {delta}
+give_sender: "{prefix}<gray>: <green>Spieler <aqua>{player} <green>x{amount} Größentrank gegeben <gray>({delta})"
+give_receiver: "{prefix}<gray>: <green>Du hast x{amount} Größentrank erhalten <gray>({delta})"
+
+# Reload | {count}
+reload: "{prefix}<gray>: <green>Neu geladen. Auf <white>{count} <green>Spieler angewendet."
+
+# Errors | {player} {value}
+no_permission: "{prefix}<gray>: <red>Du hast keine Berechtigung für diesen Befehl."
+player_not_found: "{prefix}<gray>: <red>Spieler '{player}' ist nicht online."
+invalid_value: "{prefix}<gray>: <red>Ungültiger Wert: '{value}'. z.B. 1.5, +0.5, -0.1"
+invalid_delta: "{prefix}<gray>: <red>Ungültiges Delta: '{value}'. z.B. -0.01 oder 0.50"
+invalid_amount: "{prefix}<gray>: <red>Ungültige Menge: '{value}'. Ganzzahl muss mindestens 1 sein."
+delta_zero: "{prefix}<gray>: <red>Delta darf nicht null sein."
+
+# Actionbar | {height} {height_cm} {height_imperial} {scale}
+actionbar_grow:    "<gold>Du bist jetzt {height} <gray>({scale})"
+actionbar_shrink:  "<aqua>Du bist jetzt {height} <gray>({scale})"
+actionbar_neutral: "<gray>Du bist {height} <gray>({scale})"
+
+# Potions | {direction} {tier} {delta}
+direction_grow: "Vergrößerung"
+direction_shrink: "Verkleinerung"
+potion_name: "Trank der {direction}"
+potion_lore_1: "<blue>{direction}{tier}"
+potion_lore_2: ""
+potion_lore_3: "<dark_purple>Bei Anwendung:"
+potion_lore_4: "<blue>{delta} Größe"

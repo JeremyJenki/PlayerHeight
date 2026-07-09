@@ -1,0 +1,24 @@
+name: PlayerHeight
+version: '1.0.0'
+main: io.github.jeremyjenki.playerheight.PlayerHeight
+api-version: '1.21'
+description: Persistent player scale and attribute management
+authors: [JeremyJenki]
+soft-depend: [PlaceholderAPI]
+
+commands:
+  playerheight:
+    aliases: [ph]
+  scale:
+  setscale:
+
+permissions:
+  playerheight.admin:
+    description: Set scales, give potions, and reload config
+    default: op
+  playerheight.check:
+    description: Check your own scale with /scale
+    default: true
+  playerheight.self:
+    description: Set your own scale with /ph setscale or /setscale
+    default: false

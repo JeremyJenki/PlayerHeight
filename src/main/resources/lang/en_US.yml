@@ -1,0 +1,52 @@
+# PlayerHeight Language File -- en_US
+# Supports MiniMessage formatting: https://docs.advntr.dev/minimessage/format.html
+
+prefix: "<gradient:#FFA500:#FF5D00>PlayerHeight</gradient>"
+
+# Help | {version}
+help_header: "{prefix} <#FFA500>v{version}"
+help_scale_get: "<green>/ph scale <dark_green>[player]"
+help_scale_set: "<green>/ph scale <dark_green><player> <value> [silent]"
+help_setscale: "<green>/ph setscale <dark_green><value>"
+help_give: "<green>/ph give <dark_green><player> <delta> [amount]"
+help_reload: "<green>/ph reload"
+
+# Usage
+usage_scale: "{prefix}<gray>: <red>Usage: /ph scale <player> [value] [silent]"
+usage_setscale: "{prefix}<gray>: <red>Usage: /ph setscale <value>"
+usage_give: "{prefix}<gray>: <red>Usage: /ph give <player> <delta> [amount]"
+
+# Scale | {player} {height} {height_cm} {height_imperial} {scale}
+scale_query_other: "{prefix}<gray>: <aqua>{player} <green>is <white>{height} <gray>({scale})"
+scale_query_self: "<green>You are <white>{height} <gray>({scale})"
+scale_set_self: "<green>Your height has been set to <white>{height} <gray>({scale})"
+scale_set_other: "{prefix}<gray>: <green>Set <aqua>{player}<green>'s scale to <white>{scale}"
+
+# Give | {player} {amount} {delta}
+give_sender: "{prefix}<gray>: <green>Gave <aqua>{player} <green>x{amount} size potion <gray>({delta})"
+give_receiver: "{prefix}<gray>: <green>You received x{amount} size potion <gray>({delta})"
+
+# Reload | {count}
+reload: "{prefix}<gray>: <green>Reloaded. Re-applied to <white>{count} <green>player(s)."
+
+# Errors | {player} {value}
+no_permission: "{prefix}<gray>: <red>You don't have permission to use this command."
+player_not_found: "{prefix}<gray>: <red>Player '{player}' is not online."
+invalid_value: "{prefix}<gray>: <red>Invalid value: '{value}'. Use e.g. 1.5, +0.5, -0.1"
+invalid_delta: "{prefix}<gray>: <red>Invalid delta: '{value}'. Use e.g. -0.01 or 0.50"
+invalid_amount: "{prefix}<gray>: <red>Invalid amount: '{value}'. Integer must not be less than 1."
+delta_zero: "{prefix}<gray>: <red>Delta cannot be zero."
+
+# Actionbar | {height} {height_cm} {height_imperial} {scale}
+actionbar_grow:    "<gold>You are now {height} <gray>({scale})"
+actionbar_shrink:  "<aqua>You are now {height} <gray>({scale})"
+actionbar_neutral: "<gray>You are {height} ({scale})"
+
+# Potions | {direction} {tier} {delta}
+direction_grow: "Growing"
+direction_shrink: "Shrinking"
+potion_name: "Potion of {direction}"
+potion_lore_1: "<blue>{direction}{tier}"
+potion_lore_2: ""
+potion_lore_3: "<dark_purple>When applied:"
+potion_lore_4: "<blue>{delta} Size"
