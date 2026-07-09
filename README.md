@@ -8,7 +8,7 @@ In vanilla, changing the scale attribute alone does not effect player move speed
 
 This plugin fixes that by making each relevant attribute scale proportionally to the player's base scale.
 
-Smaller players will accurately walk slower, have weaker jumps and deal less attack damage, while larger players will be inversely affected.
+Smaller players will walk slower, have weaker jumps and deal less attack damage, while larger players will be inversely affected.
 
 ## Size Potions
 
