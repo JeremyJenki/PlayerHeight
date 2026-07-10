@@ -4,7 +4,7 @@ Player scale and attribute management plugin for Minecraft (Paper).
 
 ## What does it do?
 
-In vanilla, changing the scale attribute alone does not effect player move speed, jump distance, health or any other traits, leading to unrealistic movement and unbalanced gameplay.
+In vanilla, changing the scale attribute of players does not effect player move speed, jump distance, health or any other traits, leading to unbalanced gameplay.
 
 This plugin fixes that by making each relevant attribute scale proportionally to the player's base scale.
 
@@ -12,9 +12,9 @@ Smaller players will walk slower, have weaker jumps and deal less attack damage,
 
 ## Size Potions
 
-PlayerHeight comes with a custom potion module. Size potions can grow or shrink players easily while integrating nicely with survival worlds.
+PlayerHeight comes with a custom potions that can grow or shrink players easily while integrating nicely with survival worlds.
 
-The plugin does not currently make these potions craftable or lootable.
+Note: The plugin does not currently make these potions craftable or lootable - so admins need to implement it using their own methods.
 
 Alternatively, you can give players the `playerheight.self` permission to let them change it on the fly.
 
